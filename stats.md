@@ -52,5 +52,6 @@ multinom_model <- multinom(
 
 summary(multinom_model)
 
-figures/theme_effects_coefficients.png
+![Effect of GDELT Themes on Article Tone](figures/theme_effects_coefficients.png)
+
 
