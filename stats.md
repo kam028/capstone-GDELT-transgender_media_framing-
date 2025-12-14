@@ -25,6 +25,9 @@ Tone labeling rules:
 ## 3) Chi-Square Test: Theme × Tone
 **Why:** Tests whether theme and tone category are independent.
 
+
+Data not uploaded due to size; code provided for transparency.
+
 ### Code
 ```r
 #Create contingency table
@@ -38,5 +41,14 @@ Output
 - df: 13108
 - p-value: < 2.2e-16
 
+multinom_model <- multinom(
+  tone_label ~ TAX_FNCACT + LGBT + BAN + LEGISLATION +
+    WB_615_GENDER + GENERAL_HEALTH + EDUCATION +
+    EPU_POLICY + USPEC_POLITICS_GENERAL1 +
+    CRISISLEX_C03_WELLBEING_HEALTH + MEDICAL + TRIAL,
+  data = article_sample,
+  trace = FALSE
+)
 
-Data not uploaded due to size; code provided for transparency.
+summary(multinom_model)
+
