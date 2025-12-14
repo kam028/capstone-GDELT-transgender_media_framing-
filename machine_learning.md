@@ -111,7 +111,7 @@ statistical testing and narrative analysis.
 
 ## 6) Notebook
 
-The full machine learning workflow, including data preparation, model training,
+The full machine learning workflow, model training,
 and evaluation, is documented in the following notebook:
 
-- `notebooks/wide_machine_learning.ipynb`
+- [`wide_machine_learning.ipynb`](notebooks/wide_machine_learning.ipynb)
