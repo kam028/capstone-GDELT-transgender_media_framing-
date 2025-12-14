@@ -29,7 +29,7 @@ Tone labeling rules:
 Data not uploaded due to size; code provided for transparency.
 
 ### Code
-```r
+\```r
 #Create contingency table
 theme_tone_table <- table(master_long$theme, master_long$tone_label)
 
@@ -52,7 +52,7 @@ multinom_model <- multinom(
 
 summary(multinom_model)
 
-![Effect of GDELT Themes on Article Tone](figures/theme_effects_coefficients.png)
 
+![Effect of GDELT Themes on Article Tone](figures/theme_effects_coefficients.png)
 
 
