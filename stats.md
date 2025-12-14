@@ -25,5 +25,18 @@ Tone labeling rules:
 ## 3) Chi-Square Test: Theme × Tone
 **Why:** Tests whether theme and tone category are independent.
 
+### Code
+```r
+#Create contingency table
+theme_tone_table <- table(master_long$theme, master_long$tone_label)
+
+#Run chi-square test
+chi_result <- chisq.test(theme_tone_table)
+chi_result
+Output
+- Chi-square statistic:353438
+- df: 13108
+- p-value: < 2.2e-16
+
 
 Data not uploaded due to size; code provided for transparency.
