@@ -20,11 +20,12 @@ key trends in media framing.
 
 ## Storytelling Strategy
 Rather than presenting results as tables of coefficients or test statistics,
-the project uses visual storytelling to guide users through three core questions:
+the project uses visual storytelling to guide users through two core questions:
 
-1. **How often do transgender-related stories appear in the news?**
-2. **When coverage appears, how is it framed (negative, neutral, positive)?**
-3. **Where and around which topics does negative framing concentrate?**
+1. **Exploratory: How is transgender-related news being covered across global and U.S. outlets, and what patterns emerge in article volume, tone, and geography between 2021 and 2025?**
+2. **Explanatory: Which themes and news ecosystems most strongly contribute to negative framing in transgender media coverage, and how do outlet type and State influence tone over this same period?**
+
+
 
 Each section of the dashboard builds on the previous one, moving from broad
 patterns to more specific explanations.
@@ -35,7 +36,7 @@ patterns to more specific explanations.
 Key visual choices include:
 - **Time-series charts** to highlight spikes around major policy and cultural events
 - **Geographic maps** to show how coverage spreads beyond the U.S.
-- **Bar charts and ranked lists** to compare themes associated with different tones
+- **Bar charts and ranked lists** to compare themes, states, & outlets associated with different tones
 - **Interactive filters** that allow users to explore patterns without being
   overwhelmed by technical detail
 
