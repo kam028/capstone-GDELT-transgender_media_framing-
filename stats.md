@@ -52,3 +52,4 @@ multinom_model <- multinom(
 
 summary(multinom_model)
 
+figures/Effect of GDELT Themes on Tone (baseline = Negative).png
